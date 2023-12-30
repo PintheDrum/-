@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d53072d22c4294af28eb3d1c5cd1bd6d, type: 3}
+  m_Name: Scene6.7
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: 
+    dialogue: "\u9910\u5385\u7684\u8001\u677F\u7A81\u7136\u95EA\u4E86\u51FA\u6765!"
+  - speaker: "\u9910\u5385\u8001\u677F:"
+    dialogue: "\u4F60\u600E\u4E48\u4E0D\u5403\u5566?"

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d53072d22c4294af28eb3d1c5cd1bd6d, type: 3}
+  m_Name: Scene5.0
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - speaker: 
+    dialogue: "\u534A\u591C, \u4F60\u88AB\u5669\u68A6\u60CA\u9192, \u60F3\u8981\u53BB\u53A8\u623F\u90A3\u676F\u6C34\u559D,
+      \u5374\u7A81\u7136\u770B\u89C1\u4E86\u5988\u5988......"
+  - speaker: "\u4F60:"
+    dialogue: "\u5988\u5988...."
+  - speaker: 
+    dialogue: "\u4F60\u51B2\u8FC7\u53BB\u60F3\u8981\u62B1\u4F4F\u5979, \u5374\u5728\u89E6\u78B0\u5230\u5979\u7684\u524D\u4E00\u79D2\u505C\u4F4F\u4E86......."
+  - speaker: "\u4F60:"
+    dialogue: "\u5988\u5988, \u4F60\u600E\u4E48\u4F1A......"
+  - speaker: "\u5988\u5988:"
+    dialogue: "\u5FEB\u6765! \u6211\u7ED9\u4F60\u505A\u4E86\u4F60\u6700\u559C\u6B22\u5403\u7684\u756A\u8304\u9E21\u86CB\u5200\u524A\u9762,
+      \u4F60\u4E00\u5B9A\u997F\u4E86\u5427!"
+  - speaker: 
+    dialogue: "\u4F60\u5446\u4F4F\u4E86, \u8FD9\u719F\u6089\u7684\u58F0\u97F3\u5230\u5E95\u6709\u591A\u4E45\u6CA1\u6709\u542C\u89C1\u4E86?
+      \u4E45\u5230\u4F60\u5DF2\u7ECF\u5FEB\u5FD8\u8BB0\u4E0A\u4E00\u6B21\u548C\u5979\u8BF4\u8BDD\u662F\u4EC0\u4E48\u65F6\u5019\u4E86......"
+  - speaker: "\u4F60:"
+    dialogue: "\u5988\u5988, \u662F\u4F60\u56DE\u6765\u4E86\u5417?"
+  - speaker: "\u5988\u5988:"
+    dialogue: "\u8BF4\u4EC0\u4E48\u50BB\u8BDD\u5462? \u5FEB\u70B9\u5403\u5427!"
+  - speaker: 
+    dialogue: "\u4F60\u7A81\u7136\u60CA\u9192, \u5982\u679C\u8FD9\u91CC\u4E0D\u662F\u68A6\u5883,
+      \u90A3\u4E48\u534A\u591C\u65F6\u5206\u5DF2\u7ECF\u79BB\u4E16\u591A\u5E74\u7684\u5988\u5988\u53C8\u600E\u4E48\u53EF\u80FD\u51FA\u73B0\u5728\u8FD9\u91CC!"
