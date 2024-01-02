@@ -125,7 +125,7 @@ public class CheckConditions : MonoBehaviour
         {
             FindObjectOfType<Navigation>().MoveToNextScene(1);
         }
-        else if (guest_p.warning == 0 && guest_p.tomatoNoodle == 5 && guest_p.knife)
+        else if (guest_p.warning == 0 && guest_p.tomatoNoodle == 4 && guest_p.knife)
         {
             FindObjectOfType<Navigation>().MoveToNextScene(4);
         }
