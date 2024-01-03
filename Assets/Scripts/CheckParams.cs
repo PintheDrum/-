@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class CheckParams : MonoBehaviour
@@ -13,6 +14,7 @@ public class CheckParams : MonoBehaviour
         guest_params.warning = 0;
         guest_params.motherMem = 0;
         guest_params.tomatoNoodle = 0;
+        guest_params.currentScene = 1;
 
         guest_params.email = false;
         guest_params.nameList = false;
@@ -78,5 +80,10 @@ public class CheckParams : MonoBehaviour
     public void CheckKnife()
     {
         guest_params.knife = true;
+    }
+
+    public void CheckCurrentScene()
+    {
+        guest_params.currentScene = SceneManager.GetActiveScene().buildIndex;
     }
 }

@@ -121,9 +121,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 2523253980526953626, guid: 8356b9c705955485ca423316e12dbcc6, type: 3}
-        m_TargetAssemblyTypeName: GoSave, Assembly-CSharp
-        m_MethodName: GoToSave
+      - m_Target: {fileID: 8243979274366390908, guid: f347b7a2663b846248c7d449d42e8f95, type: 3}
+        m_TargetAssemblyTypeName: CheckParams, Assembly-CSharp
+        m_MethodName: CheckCurrentScene
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -198,7 +198,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: " \u4FDD \u5B58"
+  m_text: "\u8FD4  \u56DE"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 82fdce76dad434168b7549f1c1c7ac78, type: 2}
   m_sharedMaterial: {fileID: -3525995633598858701, guid: 82fdce76dad434168b7549f1c1c7ac78, type: 2}
