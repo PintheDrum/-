@@ -84,7 +84,7 @@ public class CheckConditions : MonoBehaviour
 
     public void CheckEndFour()
     {
-        if (guest_p.warning >= 6 && guest_p.knife && guest_p.motherRem)
+        if (guest_p.warning >= 4 && guest_p.knife && guest_p.motherRem)
         {
             FindObjectOfType<Navigation>().MoveToNextScene(1);
         }
@@ -125,7 +125,7 @@ public class CheckConditions : MonoBehaviour
         {
             FindObjectOfType<Navigation>().MoveToNextScene(1);
         }
-        else if (guest_p.warning == 0 && guest_p.tomatoNoodle == 5 && guest_p.knife)
+        else if (guest_p.warning == 1 && guest_p.tomatoNoodle == 4 && guest_p.knife)
         {
             FindObjectOfType<Navigation>().MoveToNextScene(4);
         }

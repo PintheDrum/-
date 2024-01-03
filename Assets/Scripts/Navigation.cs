@@ -22,4 +22,9 @@ public class Navigation : MonoBehaviour
         //int i = SceneManager.GetActiveScene().buildIndex;
         FindObjectOfType<LevelLoader>().LoadNextLevel(choiceEffect);
     }
+
+    public void GoBackToMain()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

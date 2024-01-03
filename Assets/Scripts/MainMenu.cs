@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
+    public GuestParams guest;
     public void PlayGame()
     {
      
@@ -14,7 +15,7 @@ public class MainMenu : MonoBehaviour
 
     public void StartWithSave()
     {
-        SceneManager.LoadSceneAsync(29);
+        SceneManager.LoadSceneAsync(guest.currentScene);
     }
 
     public void QuitGame()

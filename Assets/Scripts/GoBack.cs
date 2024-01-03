@@ -7,6 +7,6 @@ public class GoBack : MonoBehaviour
 {
     public void GoBackToMain()
     {
-        SceneManager.LoadScene(0);
+        SceneManager.LoadSceneAsync(0);
     }
 }

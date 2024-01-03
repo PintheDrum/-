@@ -7,6 +7,7 @@ public class GuestParams : MonoBehaviour
     public int warning;
     public int motherMem;
     public int tomatoNoodle;
+    public int currentScene;
 
     public bool email;
     public bool nameList;
