@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Scene3.6
   m_EditorClassIdentifier: 
   dialogueLines:
-  - speaker: "\u5C0F\u7F8E:"
+  - speaker: "\u5B89\u8FEA:"
     dialogue: "\u8FD9\u91CC\u4E5F\u6CA1\u4EC0\u4E48\u7279\u522B\u7684\u5440!"
   - speaker: "\u4F60:"
     dialogue: "\u6211\u53CD\u6B63\u89C9\u5F97\u633A\u597D\u5403\u7684, \u4E0B\u6B21\u4E00\u5B9A\u8FD8\u8981\u6765\u5403!"
-  - speaker: "\u5C0F\u7F8E:"
+  - speaker: "\u5B89\u8FEA:"
     dialogue: "\u4F60\u5F00\u5FC3\u5C31\u597D......"

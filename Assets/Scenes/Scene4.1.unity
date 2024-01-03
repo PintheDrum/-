@@ -1793,7 +1793,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1700211305
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1832,7 +1832,7 @@ MonoBehaviour:
   dialogueBox: {fileID: 216900205}
   dialogueText: {fileID: 1827070745}
   panel: {fileID: 1068004854}
-  currentDialogue: {fileID: 11400000, guid: 249aca5f678224d838e65c8c795475eb, type: 2}
+  currentDialogue: {fileID: 11400000, guid: a6496380c2e4b4d399c7b0344d31b69d, type: 2}
 --- !u!114 &1700211307
 MonoBehaviour:
   m_ObjectHideFlags: 0
